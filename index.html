@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>JavaScript Quiz</h1>
+        <p>Which of the following is not a JavaScript framework/library?</p>
+        <div>
+            <input type="radio" name="answer" value="a" id="a">
+            <label for="a">a) React</label>
+        </div>
+        <div>
+            <input type="radio" name="answer" value="b" id="b">
+            <label for="b">b) Angular</label>
+        </div>
+        <div>
+            <input type="radio" name="answer" value="c" id="c">
+            <label for="c">c) Laravel</label>
+        </div>
+        <div>
+            <input type="radio" name="answer" value="d" id="d">
+            <label for="d">d) Vue</label>
+        </div>
+        <button onclick="checkAnswer()">Submit</button>
+        <div id="feedback"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
